@@ -9,7 +9,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: const Kuku(), debugShowCheckedModeBanner: false);
+    return MaterialApp(
+      home: const Kuku(),
+      //home: SettingsPage(),
+      debugShowCheckedModeBanner: false,
+    );
   }
 }
 
